@@ -1,0 +1,7 @@
+[[hooks]]
+stage = "pre_build"
+command = "tailwindcss"
+command_arguments = ["-i", "./styles/main.css", "-o", "./styles/output.css"]
+
+[serve]
+address = "0.0.0.0"
