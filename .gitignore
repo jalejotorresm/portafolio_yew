@@ -17,6 +17,7 @@ styles/main.css
 .vscode/
 node_modules/
 build
+dist
 pkg
 .cache
 .DS_Store
