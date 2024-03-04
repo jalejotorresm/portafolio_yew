@@ -1,13 +1,7 @@
-use yew::prelude::*;
+mod app;
+mod components;
 
-#[function_component(App)]
-fn app() -> Html {
-    html! {
-        <main class="flex min-h-screen flex-col bg-black">
-            <h1 class="text-white">{"Hola a todos"}</h1>
-        </main>
-    }
-}
+use crate::app::App;
 
 fn main() {
     yew::Renderer::<App>::new().render();
